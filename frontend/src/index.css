@@ -1,0 +1,40 @@
+/* ✅ Highlight active nav link */
+.navbar .nav-link.active {
+  color: #0d6efd !important;
+  border-bottom: 2px solid #0d6efd;
+}
+
+/* ✅ Smooth hover */
+.navbar .nav-link:hover {
+  color: #0d6efd !important;
+}
+
+.assignment-card {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.assignment-card:hover {
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.navbar-brand {
+  transition: all 0.2s ease-in-out;
+}
+
+.navbar-brand:hover {
+  transform: scale(1.03);
+  color: #0056b3 !important;
+}
+
+.btn {
+  transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+}
+
+
+
